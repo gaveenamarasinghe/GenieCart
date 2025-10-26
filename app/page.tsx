@@ -169,7 +169,7 @@ const Home = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {categories.map((category, index) => (
-              <Link key={index} href={`/category/${category.name.toLowerCase()}`}>
+              <Link key={index} href={`/${category.name.toLowerCase()}`}>
                 <div className="group text-center cursor-pointer">
                   <div className="relative overflow-hidden rounded-2xl mb-4 shadow-lg hover:shadow-2xl transition-all duration-300">
                     <Image
